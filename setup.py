@@ -6,13 +6,14 @@ setup(name = 'py-pageres',
       version = '1.0.1',
       license = 'GPL v3.0',
       author = 'Sriram Sundarraj',
-      author_email = '<add yours>',
+      author_email = 'ssundarraj@gmail.com',
       packages = ['py_pageres'],
       entry_points = {
           'console_scripts': ['py-pageres=py_pageres:main'],
       },
       install_requires = [      
-               'pyside',        
+               'pyside',
+               'Ghost.py'
       ],
       url = 'https://github.com/ssundarraj/py-pageres',
       keywords = ['screenshot', 'webpage screenshot', 'python'],
