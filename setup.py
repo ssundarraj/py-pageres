@@ -12,7 +12,6 @@ setup(name='py-pageres',
           'console_scripts': ['py-pageres=py_pageres:main'],
       },
       install_requires=[
-          'pyside',
           'Ghost.py'
       ],
       url='https://github.com/ssundarraj/py-pageres',
